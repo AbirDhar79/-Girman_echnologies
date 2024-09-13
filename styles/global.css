@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
     background: linear-gradient(180deg, #FFFFFF 31%, #B1CBFF 100%);
     margin: 0;
@@ -26,6 +29,7 @@ body {
     margin-bottom: 2rem;
   }
   
+
   .logo {
     width: 200px;
     height: auto;

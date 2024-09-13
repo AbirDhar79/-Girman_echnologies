@@ -1,5 +1,4 @@
-
-
+import Image from 'next/image';
 import Navbar from './Navbar';
 import SearchForm from './SearchForm';
 import styles from '../styles/Home.module.css';
@@ -13,7 +12,7 @@ export default function Home() {
           <SearchForm />
         </div>
       <div className={styles.main}>
-        <img src="./bg_image.png" alt="Background" className={styles.backgroundImage} />
+      <Image src="/bg_image.png" alt="Background" width={1920} height={1080} className={styles.backgroundImage} />
         
         
       </div>
