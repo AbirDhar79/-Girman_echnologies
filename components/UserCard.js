@@ -14,7 +14,7 @@ export default function UserCard({ user }) {
   return (
     <div className={styles.card}>
       <Image src="/placeholder.jpg" alt="User" width={150} height={150} className={styles.image} />
-      <Image src={user.image} alt={user.name} width={200} height={200} />
+      
 
       <h2>{user.first_name} {user.last_name}</h2>
       <p>{user.city}</p>

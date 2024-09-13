@@ -11,9 +11,10 @@ export default function Navbar() {
   Search
 </Link>
 
-      <a href="https://girmantech.com" target="_blank" rel="noopener noreferrer" className={styles.navLink}>Website</a>
+<a href="https://girmantech.com" target="_blank" rel="noopener noreferrer" className={styles.navLink}>Website</a>
 <a href="https://www.linkedin.com/company/girman-technologies" target="_blank" rel="noopener noreferrer" className={styles.navLink}>LinkedIn</a>
 <a href="mailto:contact@girmantech.com" className={styles.navLink}>Contact</a>
+
 
 
       </div>

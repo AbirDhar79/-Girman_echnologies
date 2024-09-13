@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Navbar />
       <div className={styles.logoContainer}>
-          <img src="./coloured v1 white.png" alt="Company Logo" className={styles.logo} />
+          <Image src="/coloured v1 white.png" alt="Company Logo" width={800} height={150} className={styles.logo} />
           <SearchForm />
         </div>
       <div className={styles.main}>
