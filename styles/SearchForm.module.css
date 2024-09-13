@@ -1,0 +1,39 @@
+.searchForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.searchContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 12px 0px 20px;
+  gap: 16px;
+  width: 798px;
+  height: 51px;
+  background: #FFFFFF;
+  border: 1px solid #D7D7EA;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.searchIcon {
+  width: 16px;
+  height: 16px;
+  background: url('../public/magnifying-glass.png') no-repeat center center;
+  background-size: contain;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

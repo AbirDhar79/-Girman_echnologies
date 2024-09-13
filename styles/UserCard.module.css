@@ -1,0 +1,117 @@
+/* .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #FFFFFF 31%, #B1CBFF 100%);
+  position: relative;
+  padding: 0; 
+}
+
+.main {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.logoContainer {
+  margin-bottom: 2rem; 
+}
+
+.logo {
+  width: 200px; 
+  height: auto;
+}
+
+.searchForm {
+  width: 100%;
+  max-width: 600px; 
+  
+} */
+
+/* .card {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.phoneIcon {
+  margin-right: 5px;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.button:hover {
+  background-color: #333;
+} */
+
+
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 350px; /* Adjust height to make it more square */
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.phoneIcon {
+  margin-right: 5px;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
